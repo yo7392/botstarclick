@@ -1,0 +1,145 @@
+import math
+from re import x
+import pyttsx3
+# from colorama import init, Fore, Style
+from plyer import notification
+
+xy = pyttsx3.init('sapi5')
+voices = xy.getProperty('voices')
+# print(voices[1].id)
+xy.setProperty('voice', voices[1].id)
+def speak(audio):
+    xy.say(audio)
+    xy.runAndWait()
+# speak('H?HELLO THERE IS THERE SOMETHING I CAN HELP YOU WIT')
+
+# def intro():
+#     print(Style.BRIGHT + '''
+# ---------- StarClick Bot By Nayal ----------''' + Style.NORMAL + Fore.RED + '''
+
+# This tool is for earning purposes only
+# Do not use it for illegal work or without the consent of the target
+# I am not responsible for any action taken using this script
+# I am not responsible for any damage of any kind for using this script''' + Fore.CYAN + Style.BRIGHT + '''
+# To run this program in your mobile background type 'pythonw StarClickBot.py'
+
+
+
+# intro()
+time.sleep(2)
+speak('Enter your starclick username')
+userName = input('Enter your starclick username \n')
+speak('Enter amount you want to get in starclick per hour ')
+userAmount = float(input('Enter amount you want to get in starclick per hour \n'))
+# n = int(input('Enter the number in one digit number only once more Eg:- 5.5 = 5 \n
+n = int(input('Enter your lucky number \n'))
+for i in range(n):
+    detail = input('Enter starclick account & amount again here!! \n')
+    write = open('Details.txt', 'a+')
+    write.write(f'{detail} \n')
+    # detail.write('Details.txt', 'a+')
+    write.close()
+
+
+try:
+    pass
+except ValueError as B:
+    print(B)
+# finally:
+if userName == None:
+    pass
+else:
+    if userAmount > 5:
+        speak("Hell Nah Man!! I ain't doing more than that amount please type another one! :)")
+        print("Hell Nah Man!! I ain't doing more than that amount please type another one! :)")
+
+    else:
+        while True:
+            if __name__ == "__main__":
+                notification.notify(
+                    title = "Star-Click Money Notification",
+                    message = f"Hello {userName} your amount of {userAmount}$ has been delievered into your starclick account. Now wait another 3600sec(1Hour) to get it. Enjoy your money {userName}😁😊",
+                    # img = "C:/Users/nayal/Desktop/Python Practice/img.ico"
+                    timeout = 10
+                )
+                sin30 = math.sin(30)
+                speak(f"{sin30} are upto processed in the server")
+                print(f"{sin30} are upto processed in the server")
+                cosA = math.sin(90)
+                speak(f"{cosA} are the remaining Junk on the server")
+                print(f"{cosA} are the remaining Junk on the server")
+                speak(f'Ok! Bye {userName} see you after 1 hour :)')
+                time.sleep(60*60)
+
+
+#""""
+# def loop1():  
+    # sleep(20)
+    # try:
+        # driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[4]/div/button").click()
+#   //  except:
+        # print("You didn't solve the captcha yet. Need to refresh to avoid endless loop.")
+    #   /  # driver.refresh()
+        # l/oop1()
+    # try:/
+        # s//leep(2)
+        # driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/input").send_keys(vidUrl)
+        # sle/ep(1)
+        # driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/div/button").click()
+        # sleep(/2)
+        # driver.///find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
+        # sleep(10)
+        # driver.refresh()
+        # print("")
+        # print(">>>  Sent On Server 2w2j0920d8023jf48j <<<")
+        # print("")
+        # sleep(330) 
+        # loop1()
+    # except:
+        # print("A generic error occurred. Now will retry again")
+        # driver.refresh()
+        # sleep(20)
+        # loop1()
+
+
+#"""def loop2():
+    # sleep(10)
+    # try:
+        # driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[1]/div/button").click()
+    # except:
+        # print("You didn't solve the captcha yet. Need to refresh to avoid endless loop.")
+        # driver.refresh()
+        # loop2()
+    # try:
+        # sleep(2)
+        # driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/input").send_keys(vidUrl)
+        # sleep(1)
+        # driver.find_element_by_xpath("//*[@id=\"sid\"]/div/form/div/div/button").click()
+        # sleep(2)
+        # driver.find_element_by_xpath("//*[@id=\"c2VuZF9mb2xsb3dlcnNfdGlrdG9r\"]/div[1]/div/form/button").click()
+        # sleep(10)
+        # driver.refresh()
+        # print("")
+        # print(">>> Index of server Sent <<<")
+        # print("")
+        # sleep(2520)
+        # loop2()
+    # except:
+        # print("A generic error occurred. Now will retry again")
+        # driver.refresh()
+        # sleep(20)
+        # loop2()
+# """
+if pyautogui == "":
+    pass
+elif pyautogui == "".join:
+
+    pass
+def function():
+    pass
+def pysx3():
+    pass
+while i!= True:
+    pass
+
+ 
